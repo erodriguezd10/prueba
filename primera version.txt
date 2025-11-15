@@ -1,0 +1,4 @@
+Falta la parte del Frotend
+Falta de validación 
+Formato erroneo
+Validaciones inexistentes
