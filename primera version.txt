@@ -1,4 +1,24 @@
-Falta la parte del Frotend
 Falta de validación 
 Formato erroneo
 Validaciones inexistentes
+ejecución
+Información para la ejecución correcta de el programa:
+
+1. cree un archivo con el siguiente nombre y Formato "servicio-veterinaria-firebase-adminsdk.json".
+2. el anterior archivo debe de ser creado dentro de la carpeta "firebase-config", para el correcto funcionamiento de nuestro programa.
+3. dentro de el archivo anteriormente creado, copie el siguiente contenido:
+{
+  "type": "service_account",
+  "project_id": "veterinaria-umg",
+  "private_key_id": "3e09c8ba0ef2b78787f3145d4eeeb20b7b233f2f",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCmjUPIYu4bcTF1\n0toIXonrZmwWIh8G643ddX2XNeoqRS3Dru8TO3pZqGJZOUrb4UFSio+eAY4bo4+0\nu46GQqORT4Rvhfc0omJTErCp+hlQValHr1/CPn1juFm+T3G+RFqWmYiEvUK0SQWd\nVP0EDq64FxpUaZyfuHro5LScMnz0zmSMWdmpsHK/jCnjR56GhFOiI7l6bU8EFjHL\n2+6K+1xIo1qqjSA2FfrO1INn+Vs1kY+QK4Hmk7bvnCWVubZkpTQxxFgjMEh76I66\n8Y3jCi+ZxhRWEiR1Vs43MtiBYmo69KqMYDWAM2XRa0T6lqlo9NKvXVMoPujhqEgX\nauJRPcxnAgMBAAECggEABeAKKemc0aNVZdJ0INhzkAtoY618yl8z0sHqwL3vo+HA\ngrHLOt1IbHI9VJK/T8YAlRCl4/fVE1Iv5xBjWjFumK56kv6MS7Mwub0j4JMdzSYr\nFwgaM31wfzyJDzwOh0eHqd6s9gBrzR/y+UD+veO7Xmto4TJqin3U+XMxOyioHMXp\nLPiDeP+louCHyMhvQGrDM8GdRr8TqEUyZm2j5CtpIB7jtzF/Twt1dxbeF1ZmyJkd\nVMUpY7eU5/Ocnpt/iPMsIE1YWKelXrrRYbO1j7pf6wROcaE5EJzKFRcMpMkf7+fT\nCXGWdMXHZdkKLk1aHP9oQkjcSxDsSbnzvNsj3HJELQKBgQDPfCjXcMhbPf+PnGiR\nJPvFCUr04tsa0oydRJQGJKOsBTZG3JXHkfGgmOFVAs2qIVsB51zOSxGAJKkmFJwC\nct3P1I083cITqgQgmgBakDGuyYUkkdms6hO0JgsBmD3aeaYIhXYZidLySlcpsR3s\n7k6vehBZVeiO8dSEnfnrYwDp3QKBgQDNfuL74/8u+qfvrIUYUr+wjbhDgmZv/Rou\nRQUsW0XFr+OU4ALFKA18DaSAtCTLV3C3H7NG71HKeN/Z/xUDT10UEN3uJZhbRusB\nriyUl6yi1ujoK3ZPJOK5AMVQroQZ0cJbYrMfQ1Rq7oL3nG06rYd9sa3qWGm6Qmid\nA+2u3qWlEwKBgQCS/ZX9kwQOR+zuc9NMyJOpMn0s4i5xYSqHHBd2Bq0BaCvcpddi\nrE0vBj/Utwi296x+u8buyxXZ358JwF4KChCEdUOeFEizH6aO5itL/Y2FE3VExCMf\nMjHFVZJEjfN7/OSYctyJGTAdwHbhrX3S5b1O6b39XDRGWKLDVRvCG8CA7QKBgCFp\noD6Us8lPuD6gLoPl8IUkhfF0InPTE46yakTsEkwybS6nvcuQ16B0F2tV3yWw8gLU\nhLHj98iUHtGzSBdhsCCzHWK7eipdPZjoWRdQEiHoD7awWmxD8xlhprOXrKMGGDQD\nuFw89lzsqx7XsGr6DC3D1iNkfMxsP9ZH7T2htg1BAoGANXBrx0yw83vfqtjJP79J\nesAnvcVJUlBiaFPV/Y2uDqjC0PVDrPwK5a5a9coBG8bJSzT3yiZrQowR9/aUpbdf\n9ueZtiJIxF0g5TrM7gz6d/aM/273Nf1QpleIHRDBIH5DhBq+FP2aCNtdkgm6kOAR\ngRxJ8i4H8r1YihJjzyo4lPU=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-fbsvc@veterinaria-umg.iam.gserviceaccount.com",
+  "client_id": "109069727979651650686",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-fbsvc%40veterinaria-umg.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
+4.Limpie y arme el proyecto dentro de nebeans o vscode.
+5.Ejecute el programa
