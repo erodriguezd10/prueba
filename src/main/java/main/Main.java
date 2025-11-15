@@ -25,12 +25,12 @@ public class Main {
         ClienteService clienteService = new ClienteService();
         
         //crear dueño
-        Cliente cliente = new Cliente("Elmer Rodríguez", "Zona 4, Boca del monde", "3048477040116", "45947243");
+        Cliente cliente = new Cliente("Cristian Rodríguez", "Zona 7, Boca del monde", "4830477040116", "31555493");
         String resultado = clienteService.agregarCliente(cliente);
         System.out.println(resultado);
         
         //leer un dueño
-        Cliente clienteLeido = clienteService.obtenerCliente("3048477040116");
+        Cliente clienteLeido = clienteService.obtenerCliente("4830477040116");
         if (clienteLeido != null) {
             System.out.println("Cliente encontrado: " + clienteLeido.getNombre());
         }
@@ -42,13 +42,13 @@ public class Main {
         MascotaService mascotaService = new MascotaService();
         
         //crear mascota
-        Mascota mascota = new Mascota("M001", "terrestre", "Coco", "Perro", 
-                                     "macho", 3, "Café", new Date(), "3048477040116");
+        Mascota mascota = new Mascota("M004", "terrestre", "Rambo", "Perro", 
+                                     "macho", 3, "Anaranjado", new Date(), "4830477040116");
         String resultado = mascotaService.agregarMascota(mascota);
         System.out.println(resultado);
         
         //leer mascotas por dueño
-        var mascotas = mascotaService.obtenerMascotasPorCliente("3048477040116");
+        var mascotas = mascotaService.obtenerMascotasPorCliente("4830477040116");
         System.out.println("Mascotas encontradas: " + mascotas.size());
     }
     
@@ -58,8 +58,8 @@ public class Main {
         ProductoService productoService = new ProductoService();
         
         //creación de un producto
-        Producto producto = new Producto("P001", "Shampoo para perros", 45.50, 
-                                        "Shampoo antipulgas", 100);
+        Producto producto = new Producto("P005", "Shampoo para aclarar", 45.50, 
+                                        "Shampoo para limpiar el pelo muerto", 100);
         String resultado = productoService.agregarProducto(producto);
         System.out.println(resultado);
         
