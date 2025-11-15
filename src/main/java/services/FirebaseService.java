@@ -4,10 +4,6 @@
  */
 package services;
 
-/**
- *
- * @author GRUPO_PROG_2_C_1_ 4
- */
 import com.google.auth.oauth2.GoogleCredentials;
 import com.google.cloud.firestore.Firestore;
 import com.google.firebase.FirebaseApp;
@@ -33,22 +29,21 @@ public class FirebaseService {
     
     private void initializeFirebase() {
         try {
-            //ruta de la llave de conexión con Firebase
+            // Ruta absoluta al archivo de credenciales (fuera del proyecto)
             FileInputStream serviceAccount = 
-                new FileInputStream("firebase-config/servicio-veterinaria-firebase-adminsdk.json");
+                new FileInputStream("C:/credenciales-firebase/servicio-veterinaria-firebase-adminsdk.json");
             
             FirebaseOptions options = FirebaseOptions.builder()
                 .setCredentials(GoogleCredentials.fromStream(serviceAccount))
                 .build();
             
-            //si existe
+            // Inicializa Firebase solo una vez
             if (FirebaseApp.getApps().isEmpty()) {
                 FirebaseApp.initializeApp(options);
             }
             
             firestore = FirestoreClient.getFirestore();
-            //Conexion a Firebase establecida correctamente
-            System.out.println("");
+            System.out.println("Conexión a Firebase establecida correctamente");
             
         } catch (IOException e) {
             System.err.println("Error al conectar con Firebase: " + e.getMessage());
